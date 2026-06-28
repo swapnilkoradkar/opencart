@@ -9,6 +9,7 @@ C:\workspace\Selenium\Opencart\src\test\java\testBase\BaseClass.java
 C:\workspace\Selenium\Opencart\src\test\java\testCases\TC001_AccountRegistrationTest.java
 C:\workspace\Selenium\Opencart\src\test\java\testCases\TC002_LoginTest.java
 C:\workspace\Selenium\Opencart\src\test\java\testCases\TC003_LoginDataDriven.java
+C:\workspace\Selenium\Opencart\src\test\java\testCases\TC004_AddingTheAtom.java
 C:\workspace\Selenium\Opencart\src\test\java\utilities\DataProviders.java
 C:\workspace\Selenium\Opencart\src\test\java\utilities\ExcelUtility.java
 C:\workspace\Selenium\Opencart\src\test\java\utilities\ExtentReportManger.java
