@@ -15,28 +15,29 @@ import pageObject.HomePage;
 import pageObject.LoginPage;
 import pageObject.MyAccountlogin;
 import testBase.BaseClass;
-public class TC002_LoginTest extends BaseClass{
+import testBase.LoginComan;
+public class TC002_LoginTest {
 	
-	//WebDriver driver;
-	//public Logger logger;
-	//public Properties p;
+	WebDriver driver;
+	public Logger logger;
+	public Properties p;
 	
-/*	@BeforeClass(groups={"sanity","regration","master"})
+	@BeforeClass(groups={"sanity","regration","master"})
 	 void construct() throws IOException {
-		// driver= new ChromeDriver();
+		driver= new ChromeDriver();
 		 
 		 FileReader file=new FileReader(".//src//test//resources//Config.Properties");
 		p=new Properties();
 		p.load(file);
 		 
 		 
-		//driver.get(p.getProperty("url2"));
+		driver.get(p.getProperty("url2"));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();
 		
 		logger=LogManager.getLogger(this.driver);
 	}
-	*/
+
 	@Test(groups= {"regration","master"})
 	void Login() throws IOException, InterruptedException {
 		logger.info("Starting the test case....");
